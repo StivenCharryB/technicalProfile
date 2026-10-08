@@ -20,18 +20,18 @@ export const PROFILE_DATA: ProfileMetadata = {
   socialLinks: [
     {
       label: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/stivencharry',
+      url: 'https://www.linkedin.com/in/stiven-alberto-charry-bonilla-016b33208',
       iconName: 'linkedin',
       highlight: true,
     },
     {
       label: 'GitHub',
-      url: 'https://github.com/stivencharry',
+      url: 'https://github.com/StivenCharryB',
       iconName: 'github',
     },
     {
       label: 'Email',
-      url: 'mailto:stivencharry.dev@gmail.com',
+      url: 'mailto:stiven1859b@gmail.com',
       iconName: 'mail',
     },
     {

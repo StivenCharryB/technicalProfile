@@ -151,10 +151,10 @@ const jsonLd = {
       ],
       description:
         'Desarrollador de software y líder técnico backend enfocado en construir software empresarial confiable, integrar sistemas complejos y liderar soluciones desde el análisis técnico hasta su operación productiva continua.',
-      email: 'mailto:stivencharry.dev@gmail.com',
+      email: 'mailto:stiven1859b@gmail.com',
       sameAs: [
-        'https://www.linkedin.com/in/stivencharry',
-        'https://github.com/stivencharry',
+        'https://www.linkedin.com/in/stiven-alberto-charry-bonilla-016b33208',
+        'https://github.com/StivenCharryB',
       ],
       knowsAbout: [
         'Desarrollo de Software',

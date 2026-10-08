@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Layers, Cpu, ShieldCheck, ArrowRight } from 'lucide-react';
+import { ArrowDown, Layers, Cpu, ShieldCheck, ArrowRight, Mail } from 'lucide-react';
 import { PROFILE_DATA } from '@/infrastructure/data/profile.data';
 
 export const HeroSection: React.FC = () => {
@@ -64,8 +64,9 @@ export const HeroSection: React.FC = () => {
             <a
               href="#contact"
               title="Contactar a Stiven Charry - Desarrollador de Software y Líder Técnico"
-              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/40 border border-transparent hover:border-slate-800 transition-all"
+              className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium text-slate-200 bg-slate-900 border border-slate-700/80 hover:bg-slate-800 hover:border-slate-600 transition-all active:scale-95"
             >
+              <Mail className="w-4 h-4 text-sky-400" />
               <span>Contactarme</span>
             </a>
           </div>

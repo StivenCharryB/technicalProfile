@@ -56,7 +56,7 @@ export const ContactSection: React.FC = () => {
         {/* CTA Principal */}
         <div className="mb-14">
           <a
-            href="mailto:stivencharry.dev@gmail.com"
+            href="mailto:stiven1859b@gmail.com"
             className="inline-flex items-center gap-2.5 px-8 py-4 rounded-xl text-base font-bold text-slate-950 bg-sky-400 hover:bg-sky-300 transition-all shadow-xl shadow-sky-500/25 active:scale-95"
           >
             <span>Hablemos</span>
