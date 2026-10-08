@@ -41,10 +41,11 @@ export const HeroSection: React.FC = () => {
             {PROFILE_DATA.description}
           </p>
 
-          {/* CTAs de Alto Impacto */}
+          {/* CTAs de Alto Impacto con enlaces semánticos SEO */}
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 mb-16">
             <a
               href="#projects"
+              title="Ver experiencia técnica y proyectos destacados de Stiven Charry"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-semibold text-slate-950 bg-sky-400 hover:bg-sky-300 transition-all shadow-lg shadow-sky-500/20 active:scale-95"
             >
               <span>Ver experiencia</span>
@@ -53,6 +54,7 @@ export const HeroSection: React.FC = () => {
 
             <a
               href="#stack"
+              title="Explorar el stack de tecnologías y herramientas de backend de Stiven Charry"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium text-slate-200 bg-slate-900 border border-slate-700/80 hover:bg-slate-800 hover:border-slate-600 transition-all active:scale-95"
             >
               <Cpu className="w-4 h-4 text-sky-400" />
@@ -61,6 +63,7 @@ export const HeroSection: React.FC = () => {
 
             <a
               href="#contact"
+              title="Contactar a Stiven Charry - Desarrollador de Software y Líder Técnico"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/40 border border-transparent hover:border-slate-800 transition-all"
             >
               <span>Contactarme</span>

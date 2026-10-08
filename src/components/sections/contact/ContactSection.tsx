@@ -72,6 +72,7 @@ export const ContactSection: React.FC = () => {
               href={link.url}
               target={link.url.startsWith('http') ? '_blank' : undefined}
               rel={link.url.startsWith('http') ? 'noopener noreferrer' : undefined}
+              title={`Perfil y contacto de Stiven Charry en ${link.label}`}
               className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800/80 hover:border-slate-700 hover:bg-slate-900 transition-all flex items-center gap-3.5 group text-left"
             >
               <div className="p-2.5 rounded-xl bg-slate-950 border border-slate-800 shrink-0 group-hover:border-sky-500/40 transition-colors">

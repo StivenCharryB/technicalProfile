@@ -59,6 +59,7 @@ export const Navbar: React.FC = () => {
               <a
                 key={link.href}
                 href={link.href}
+                title={`Ir a la sección ${link.label} de Stiven Charry`}
                 className="px-3 py-1.5 text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-md transition-all"
               >
                 {link.label}
