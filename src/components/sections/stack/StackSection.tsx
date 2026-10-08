@@ -34,7 +34,7 @@ export const StackSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Ecosistema de Herramientas & Estándares"
-          title="Technology Stack"
+          title="Stack Tecnológico"
           description="Tecnologías consolidadas utilizadas en producción para construir sistemas escalables, resistentes a fallos e integrados a gran escala."
         />
 

@@ -3,7 +3,7 @@ import { FlowStep } from '@/domain/architecture.types';
 export const LIFECYCLE_FLOW_STEPS: FlowStep[] = [
   {
     stepNumber: '01',
-    title: 'Business Requirement',
+    title: 'Requerimiento de Negocio',
     subtitle: 'Comprensión y viabilidad del negocio',
     description:
       'Reunión con stakeholders y equipos de producto para traducir necesidades operativas y estratégicas en objetivos de ingeniería tangibles.',
@@ -15,7 +15,7 @@ export const LIFECYCLE_FLOW_STEPS: FlowStep[] = [
   },
   {
     stepNumber: '02',
-    title: 'Technical Analysis',
+    title: 'Análisis Técnico',
     subtitle: 'Evaluación técnica y alcance',
     description:
       'Estudio exhaustivo del ecosistema existente, contratos de datos, dependencias de terceros y análisis de viabilidad técnica.',
@@ -27,7 +27,7 @@ export const LIFECYCLE_FLOW_STEPS: FlowStep[] = [
   },
   {
     stepNumber: '03',
-    title: 'Architecture & Design',
+    title: 'Arquitectura y Diseño',
     subtitle: 'Modelado y contratos de software',
     description:
       'Definición de la arquitectura por capas, esquemas de bases de datos, protocolos de integración y especificaciones OpenAPI/REST.',
@@ -39,7 +39,7 @@ export const LIFECYCLE_FLOW_STEPS: FlowStep[] = [
   },
   {
     stepNumber: '04',
-    title: 'Development',
+    title: 'Desarrollo de Software',
     subtitle: 'Construcción con código limpio y tipado estricto',
     description:
       'Implementación backend en TypeScript/Node.js aplicando estándares de código limpio, modularidad y separación estricta de responsabilidades.',
@@ -51,7 +51,7 @@ export const LIFECYCLE_FLOW_STEPS: FlowStep[] = [
   },
   {
     stepNumber: '05',
-    title: 'Integration',
+    title: 'Integración de Sistemas',
     subtitle: 'Conexión de sistemas y servicios externos',
     description:
       'Articulación segura entre nuevos componentes, bases de datos, sistemas legados, APIs de terceros y colas de comunicación.',
@@ -63,7 +63,7 @@ export const LIFECYCLE_FLOW_STEPS: FlowStep[] = [
   },
   {
     stepNumber: '06',
-    title: 'Testing',
+    title: 'Pruebas y Calidad',
     subtitle: 'Validación de contratos y lógica de negocio',
     description:
       'Ejecución de pruebas unitarias y de integración para garantizar que las reglas de negocio y los casos de borde operen sin fisuras.',
@@ -75,7 +75,7 @@ export const LIFECYCLE_FLOW_STEPS: FlowStep[] = [
   },
   {
     stepNumber: '07',
-    title: 'CI/CD',
+    title: 'CI/CD y Automatización',
     subtitle: 'Automatización y empaquetado continuo',
     description:
       'Construcción de imágenes Docker ligeras, análisis estático de código y validación automatizada previa a despliegue con Jenkins o GitHub Actions.',
@@ -87,7 +87,7 @@ export const LIFECYCLE_FLOW_STEPS: FlowStep[] = [
   },
   {
     stepNumber: '08',
-    title: 'Production',
+    title: 'Puesta en Producción',
     subtitle: 'Despliegue coordinado en entornos productivos',
     description:
       'Puesta en marcha en servidores Linux gestionados con Nginx/Traefik y PM2, minimizando tiempos de indisponibilidad y coordinando ventanas de release.',
@@ -99,7 +99,7 @@ export const LIFECYCLE_FLOW_STEPS: FlowStep[] = [
   },
   {
     stepNumber: '09',
-    title: 'Monitoring & Evolution',
+    title: 'Monitoreo y Evolución',
     subtitle: 'Observabilidad y mejora continua',
     description:
       'Seguimiento en vivo del estado del servicio, registros de auditoría, métricas de respuesta y evolución iterativa de la solución.',

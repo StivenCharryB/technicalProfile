@@ -3,7 +3,7 @@ import { EngineeringProject } from '@/domain/project.types';
 export const SELECTED_PROJECTS: EngineeringProject[] = [
   {
     id: 'operating-room-platform',
-    name: 'Real-Time Operating Room Platform',
+    name: 'Plataforma de Quirófanos en Tiempo Real',
     category: 'Sistemas en Tiempo Real · Salud',
     badge: 'Producción Activa · Misión Crítica',
     problem:
@@ -19,7 +19,7 @@ export const SELECTED_PROJECTS: EngineeringProject[] = [
   },
   {
     id: 'enterprise-appointment-integration',
-    name: 'Enterprise Appointment Integration',
+    name: 'Integración Empresarial de Citas Médicas',
     category: 'Integración Empresarial · APIs',
     badge: 'Integración Crítica · Alto Volumen',
     problem:
@@ -35,14 +35,14 @@ export const SELECTED_PROJECTS: EngineeringProject[] = [
   },
   {
     id: 'healthcare-systems-integration',
-    name: 'Healthcare Systems Integration',
+    name: 'Integración de Sistemas de Salud',
     category: 'Modernización Legacy & Docker',
     badge: 'Interoperabilidad · Enterprise',
     problem:
       'Sistemas legados hospitalarios con esquemas de datos cerrados y sin documentación de API necesitaban comunicarse con nuevos servicios clínicos y sistemas de información en la nube.',
     solution:
       'Construcción de microservicios adaptadores contenerizados en Docker con REST APIs, que aíslan la complejidad de las fuentes de datos preexistentes, estandarizan los modelos de respuesta y protegen la infraestructura legacy.',
-    technologies: ['REST APIs', 'Legacy Systems', 'PostgreSQL', 'SQL Server', 'Docker', 'Nginx'],
+    technologies: ['REST APIs', 'Sistemas Legados', 'PostgreSQL', 'SQL Server', 'Docker', 'Nginx'],
     architecture:
       'Patrón Adapter / Facade distribuido: microservicios especializados que traducen consultas a formatos estándar JSON/REST, balanceados mediante Nginx y empaquetados en contenedores Docker.',
     result:

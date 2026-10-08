@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
             <Terminal className="w-4 h-4 text-sky-400" />
             <span className="font-bold text-slate-200">STIVEN CHARRY</span>
             <span>—</span>
-            <span>Technical Lead & Backend Engineer</span>
+            <span>Líder Técnico & Ingeniero Backend</span>
           </div>
 
           <div className="flex items-center gap-6 text-slate-400">

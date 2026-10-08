@@ -2,14 +2,15 @@
 Memoria del proyecto entre sesiones. Máximo ~50 líneas.
 
 ## Estado actual
-- v1 funcionando y validado en producción: Portfolio web empresarial para Stiven Alberto Charry Bonilla (Technical Lead & Backend Engineer).
+- v1 funcionando y validado en producción: Portfolio web empresarial para Stiven Alberto Charry Bonilla.
+- Toda la data técnica, títulos de secciones, proyectos, roles y responsabilidades localizada completamente en español para reclutadores.
 - Suite de pruebas unitarias (`npm run test`) ejecutando 8 tests con 100% de éxito en Vitest.
-- Linter (`npm run lint`) y compilación de producción (`npm run build`) pasando con 0 errores y 0 advertencias.
-- Servidor dev operativo en `http://localhost:3000`.
+- Linter (`npm run lint`) pasando con 0 errores y 0 advertencias.
 
 ## Decisiones (y por qué)
 - Arquitectura por capas (`domain`, `infrastructure`, `components`, `app`) para desacoplar datos técnicos de la presentación visual y facilitar mantenimiento.
 - Paleta oscura técnica empresarial (carbón profundo `#090D16`, bordes translúcidos, acentos cyan/esmeralda) evitando clichés de portfolios junior.
+- Textos y títulos traducidos a español con vocabulario técnico profesional para maximizar comprensión y conversión con reclutadores hispanohablantes.
 - SVGs inline para logos de redes (LinkedIn, GitHub) para evitar incompatibilidades con paquetes externos en Turbopack.
 - Vitest configurado con ESM (`vitest.config.mts`) para pruebas rápidas y compatibilidad total con TypeScript.
 

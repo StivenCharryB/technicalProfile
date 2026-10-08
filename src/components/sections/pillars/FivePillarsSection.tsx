@@ -26,7 +26,7 @@ export const FivePillarsSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Pilares Fundamentales"
-          title="Engineer → Architect → Technical Leader"
+          title="Ingeniero → Arquitecto → Líder Técnico"
           description="Una evolución técnica sólida: dominio profundo de código, capacidad de diseño estructural y liderazgo directivo."
         />
 

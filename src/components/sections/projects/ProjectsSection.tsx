@@ -9,7 +9,7 @@ export const ProjectsSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Casos Técnicos Destacados"
-          title="Selected Engineering Work"
+          title="Proyectos y Casos de Ingeniería"
           description="Casos de estudio arquitectónicos reales: resolución de desafíos críticos de integración, sincronización en tiempo real y modernización de sistemas."
         />
 

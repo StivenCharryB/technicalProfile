@@ -3,7 +3,7 @@ import { IntegrationNode } from '@/domain/architecture.types';
 export const ENTERPRISE_INTEGRATION_NODES: IntegrationNode[] = [
   {
     id: 'applications',
-    name: 'Applications',
+    name: 'Aplicaciones y Clientes',
     role: 'Frontend & Clientes Operativos',
     iconType: 'app',
     description:
@@ -12,7 +12,7 @@ export const ENTERPRISE_INTEGRATION_NODES: IntegrationNode[] = [
   },
   {
     id: 'apis',
-    name: 'Core APIs & Microservicios',
+    name: 'APIs Principales y Microservicios',
     role: 'Capa de Negocio y Orquestación Backend',
     iconType: 'api',
     description:
@@ -21,7 +21,7 @@ export const ENTERPRISE_INTEGRATION_NODES: IntegrationNode[] = [
   },
   {
     id: 'databases',
-    name: 'Databases & Storage',
+    name: 'Bases de Datos y Almacenamiento',
     role: 'Persistencia Transaccional',
     iconType: 'db',
     description:
@@ -30,7 +30,7 @@ export const ENTERPRISE_INTEGRATION_NODES: IntegrationNode[] = [
   },
   {
     id: 'legacy',
-    name: 'Legacy Systems',
+    name: 'Sistemas Legados',
     role: 'Sistemas Heredados & Core Corporativo',
     iconType: 'legacy',
     description:
@@ -39,7 +39,7 @@ export const ENTERPRISE_INTEGRATION_NODES: IntegrationNode[] = [
   },
   {
     id: 'external',
-    name: 'External Services & Providers',
+    name: 'Servicios Externos y Proveedores',
     role: 'Integraciones con Terceros',
     iconType: 'cloud',
     description:
@@ -48,7 +48,7 @@ export const ENTERPRISE_INTEGRATION_NODES: IntegrationNode[] = [
   },
   {
     id: 'infrastructure',
-    name: 'Infrastructure & Edge',
+    name: 'Infraestructura y Red',
     role: 'Plataforma de Despliegue y Red',
     iconType: 'infra',
     description:

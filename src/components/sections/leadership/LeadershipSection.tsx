@@ -9,7 +9,7 @@ export const LeadershipSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Dirección Técnica & Gestión de Ingeniería"
-          title="Technical Leadership"
+          title="Liderazgo Técnico"
           description="Liderazgo técnico pragmático enfocado en criterio, calidad de entrega, estabilidad en producción y articulación fluida entre negocio e ingeniería."
         />
 

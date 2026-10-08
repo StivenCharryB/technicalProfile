@@ -3,7 +3,7 @@ import { StackCategory } from '@/domain/stack.types';
 export const TECH_STACK_CATEGORIES: StackCategory[] = [
   {
     id: 'backend',
-    title: 'Backend Engineering',
+    title: 'Ingeniería Backend',
     shortTitle: 'Backend',
     description:
       'Construcción de servicios principales, lógica transaccional y capas de API con tipado robusto y patrones limpios.',
@@ -18,22 +18,22 @@ export const TECH_STACK_CATEGORIES: StackCategory[] = [
   },
   {
     id: 'architecture',
-    title: 'Architecture & Integration',
+    title: 'Arquitectura e Integración',
     shortTitle: 'Arquitectura',
     description:
       'Diseño estructural para asegurar interoperabilidad, alta cohesión y bajo acoplamiento entre sistemas distribuidos.',
     items: [
-      { name: 'Enterprise Integrations', category: 'architecture', highlight: true, tag: 'Conectividad Crítica' },
-      { name: 'Microservices / SOA', category: 'architecture', highlight: true, tag: 'Desacoplamiento' },
-      { name: 'Legacy Systems Integration', category: 'architecture', highlight: true, tag: 'Modernización' },
-      { name: 'Real-Time Systems', category: 'architecture', highlight: true, tag: 'Baja Latencia' },
-      { name: 'Distributed Systems', category: 'architecture', tag: 'Resiliencia' },
-      { name: 'Layered Architecture', category: 'architecture', tag: 'Mantenibilidad' },
+      { name: 'Integraciones Empresariales', category: 'architecture', highlight: true, tag: 'Conectividad Crítica' },
+      { name: 'Microservicios / SOA', category: 'architecture', highlight: true, tag: 'Desacoplamiento' },
+      { name: 'Integración de Sistemas Legados', category: 'architecture', highlight: true, tag: 'Modernización' },
+      { name: 'Sistemas en Tiempo Real', category: 'architecture', highlight: true, tag: 'Baja Latencia' },
+      { name: 'Sistemas Distribuidos', category: 'architecture', tag: 'Resiliencia' },
+      { name: 'Arquitectura por Capas', category: 'architecture', tag: 'Mantenibilidad' },
     ],
   },
   {
     id: 'databases',
-    title: 'Database Engineering',
+    title: 'Ingeniería de Bases de Datos',
     shortTitle: 'Bases de Datos',
     description:
       'Almacenamiento relacional, diseño transaccional ACID, optimización y orquestación con ORMs modernos y query builders.',
@@ -48,7 +48,7 @@ export const TECH_STACK_CATEGORIES: StackCategory[] = [
   },
   {
     id: 'devops',
-    title: 'DevOps & Infrastructure',
+    title: 'DevOps e Infraestructura',
     shortTitle: 'DevOps',
     description:
       'Aprovisionamiento, contenerización y puesta en marcha de aplicaciones en servidores de producción y entornos continuos.',
@@ -65,7 +65,7 @@ export const TECH_STACK_CATEGORIES: StackCategory[] = [
   },
   {
     id: 'frontend',
-    title: 'Frontend & UI Engineering',
+    title: 'Frontend e Interfaces Web',
     shortTitle: 'Frontend',
     description:
       'Desarrollo de interfaces web modernas y operativas para el consumo de servicios y visualización de datos.',

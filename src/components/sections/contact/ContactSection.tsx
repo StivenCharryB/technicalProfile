@@ -46,7 +46,7 @@ export const ContactSection: React.FC = () => {
         </div>
 
         <h2 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white mb-6 uppercase">
-          Let&apos;s Build Something Great
+          Construyamos Software de Alto Impacto
         </h2>
 
         <p className="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto mb-10 leading-relaxed font-normal">
@@ -59,7 +59,7 @@ export const ContactSection: React.FC = () => {
             href="mailto:stivencharry.dev@gmail.com"
             className="inline-flex items-center gap-2.5 px-8 py-4 rounded-xl text-base font-bold text-slate-950 bg-sky-400 hover:bg-sky-300 transition-all shadow-xl shadow-sky-500/25 active:scale-95"
           >
-            <span>Let&apos;s Talk</span>
+            <span>Hablemos</span>
             <ArrowUpRight className="w-5 h-5" />
           </a>
         </div>

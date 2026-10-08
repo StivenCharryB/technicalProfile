@@ -14,7 +14,7 @@ export const ArchitectureFlowSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Ciclo de Vida de Ingeniería de Software"
-          title="From Requirement to Production"
+          title="Del Requerimiento a Producción"
           description="No solo escribo código: participo activamente, diseño y lidero cada etapa del ciclo de vida de una solución tecnológica empresarial."
         />
 

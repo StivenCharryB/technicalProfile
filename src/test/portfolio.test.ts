@@ -10,8 +10,8 @@ import { LEADERSHIP_RESPONSIBILITIES } from '@/infrastructure/data/leadership.da
 describe('Integridad de los datos del Portfolio de Stiven Charry', () => {
   it('debe contener los datos completos y roles requeridos de Stiven Charry', () => {
     expect(PROFILE_DATA.name).toBe('STIVEN ALBERTO CHARRY BONILLA');
-    expect(PROFILE_DATA.title).toContain('Technical Lead');
-    expect(PROFILE_DATA.title).toContain('Backend Engineer');
+    expect(PROFILE_DATA.title).toContain('Líder Técnico');
+    expect(PROFILE_DATA.title).toContain('Ingeniero Backend');
     expect(PROFILE_DATA.availability.status).toBe(true);
     expect(PROFILE_DATA.pillars.length).toBe(5);
   });
@@ -45,8 +45,8 @@ describe('Integridad de los datos del Portfolio de Stiven Charry', () => {
 
   it('debe contar con los 9 pasos del ciclo de vida de ingeniería (From Requirement to Production)', () => {
     expect(LIFECYCLE_FLOW_STEPS.length).toBe(9);
-    expect(LIFECYCLE_FLOW_STEPS[0].title).toBe('Business Requirement');
-    expect(LIFECYCLE_FLOW_STEPS[8].title).toBe('Monitoring & Evolution');
+    expect(LIFECYCLE_FLOW_STEPS[0].title).toBe('Requerimiento de Negocio');
+    expect(LIFECYCLE_FLOW_STEPS[8].title).toBe('Monitoreo y Evolución');
   });
 
   it('debe incluir los 6 nodos de topología de integración empresarial', () => {
@@ -63,9 +63,9 @@ describe('Integridad de los datos del Portfolio de Stiven Charry', () => {
   it('debe detallar los casos técnicos de estudio sin inventar métricas', () => {
     expect(SELECTED_PROJECTS.length).toBe(3);
     const projectNames = SELECTED_PROJECTS.map((p) => p.name);
-    expect(projectNames).toContain('Real-Time Operating Room Platform');
-    expect(projectNames).toContain('Enterprise Appointment Integration');
-    expect(projectNames).toContain('Healthcare Systems Integration');
+    expect(projectNames).toContain('Plataforma de Quirófanos en Tiempo Real');
+    expect(projectNames).toContain('Integración Empresarial de Citas Médicas');
+    expect(projectNames).toContain('Integración de Sistemas de Salud');
 
     SELECTED_PROJECTS.forEach((proj) => {
       expect(proj.problem.length).toBeGreaterThan(20);
@@ -79,9 +79,9 @@ describe('Integridad de los datos del Portfolio de Stiven Charry', () => {
   it('debe incluir las responsabilidades de liderazgo técnico requeridas', () => {
     expect(LEADERSHIP_RESPONSIBILITIES.length).toBeGreaterThanOrEqual(9);
     const titles = LEADERSHIP_RESPONSIBILITIES.map((r) => r.title);
-    expect(titles).toContain('Technical Decision Making');
-    expect(titles).toContain('Architecture Definition');
-    expect(titles).toContain('Code & Solution Review');
-    expect(titles).toContain('Production Support');
+    expect(titles).toContain('Toma de Decisiones Técnicas');
+    expect(titles).toContain('Definición de Arquitectura');
+    expect(titles).toContain('Revisión de Código y Soluciones');
+    expect(titles).toContain('Soporte y Estabilidad en Producción');
   });
 });

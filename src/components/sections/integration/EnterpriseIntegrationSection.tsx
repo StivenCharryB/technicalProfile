@@ -45,7 +45,7 @@ export const EnterpriseIntegrationSection: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeader
           eyebrow="Especialidad Central de Integración"
-          title="Connecting Complex Systems"
+          title="Conexión de Sistemas Complejos"
           description="Mi fortaleza radica en construir soluciones donde diferentes sistemas, aplicaciones, bases de datos y servicios necesitan trabajar juntos de forma confiable y resiliente."
         />
 

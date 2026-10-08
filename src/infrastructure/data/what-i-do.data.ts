@@ -3,7 +3,7 @@ import { WhatIDoCapability } from '@/domain/architecture.types';
 export const WHAT_I_DO_CAPABILITIES: WhatIDoCapability[] = [
   {
     id: 'backend',
-    title: 'Backend Engineering',
+    title: 'Ingeniería Backend',
     description:
       'Construcción de APIs, microservicios y arquitecturas backend robustas, altamente disponibles y mantenibles mediante código limpio y tipado estricto.',
     highlights: [
@@ -16,7 +16,7 @@ export const WHAT_I_DO_CAPABILITIES: WhatIDoCapability[] = [
   },
   {
     id: 'integrations',
-    title: 'Enterprise Integrations',
+    title: 'Integraciones Empresariales',
     description:
       'Integración y orquestación de múltiples sistemas corporativos, APIs de terceros, plataformas externas y sistemas legados críticos.',
     highlights: [
@@ -29,7 +29,7 @@ export const WHAT_I_DO_CAPABILITIES: WhatIDoCapability[] = [
   },
   {
     id: 'leadership',
-    title: 'Technical Leadership',
+    title: 'Liderazgo Técnico',
     description:
       'Análisis técnico de requerimientos, estimación de esfuerzo, definición de arquitectura, revisión de código y mentoría técnica a desarrolladores.',
     highlights: [
@@ -42,7 +42,7 @@ export const WHAT_I_DO_CAPABILITIES: WhatIDoCapability[] = [
   },
   {
     id: 'realtime',
-    title: 'Real-Time Systems',
+    title: 'Sistemas en Tiempo Real',
     description:
       'Implementación de canales bidireccionales por WebSockets para difusión de datos en tiempo real y monitoreo instantáneo de eventos operativos.',
     highlights: [
@@ -55,7 +55,7 @@ export const WHAT_I_DO_CAPABILITIES: WhatIDoCapability[] = [
   },
   {
     id: 'databases',
-    title: 'Database Engineering',
+    title: 'Ingeniería de Bases de Datos',
     description:
       'Modelado relacional, optimización de consultas complejas, diseño transaccional y procedimientos almacenados en SQL Server y PostgreSQL.',
     highlights: [
@@ -68,7 +68,7 @@ export const WHAT_I_DO_CAPABILITIES: WhatIDoCapability[] = [
   },
   {
     id: 'devops',
-    title: 'DevOps & Production',
+    title: 'DevOps y Producción',
     description:
       'Gestión de infraestructura en servidores Linux, contenedores Docker, proxies inversos (Nginx/Traefik) y soporte operativo en producción.',
     highlights: [

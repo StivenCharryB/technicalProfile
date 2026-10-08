@@ -31,9 +31,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Stiven Alberto Charry Bonilla' }],
   openGraph: {
-    title: 'Stiven Charry | Technical Lead · Backend Engineer',
+    title: 'Stiven Charry | Líder Técnico · Ingeniero Backend',
     description:
-      'Building scalable backend systems, enterprise integrations and production-ready software.',
+      'Construcción de sistemas backend escalables, integraciones empresariales y software listo para producción.',
     type: 'website',
   },
 };

@@ -48,7 +48,7 @@ export const Navbar: React.FC = () => {
                 Stiven Charry
               </span>
               <span className="hidden sm:block text-[10px] font-mono text-slate-500 uppercase tracking-widest leading-none">
-                Technical Lead
+                Líder Técnico
               </span>
             </div>
           </a>
